@@ -21,7 +21,7 @@ done
 echo ""
 
 echo "Recent Attacks (last 10):"
-sudo tail -10 /var/log/fail2ban.log | grep "Ban " | awk '{print $1, $2, $NF}' | sed 's/Ban /  ⚠️  /'
+sudo tail -10 /var/log/fail2ban.log | grep "Ban " | awk '{print $1, $2, $NF}' | sed 's/Ban /    /'
 echo ""
 
 echo "Last Blocklist Update:"
