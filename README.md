@@ -1,8 +1,6 @@
 # IP-Block
 Fetches a list from spamhaus daily and blocks all offending IP's
 
-# Automatically block offending IP sets
-
 ### Install ipset for efficient IP blocking
 `sudo apt-get install ipset`
 
@@ -11,14 +9,14 @@ Fetches a list from spamhaus daily and blocks all offending IP's
 
 Add: `ip-block.sh` contents
 
-sudo chmod +x /etc/cron.daily/update-blocklists
+`sudo chmod +x /etc/cron.daily/update-blocklists`
 
 ### Create log file with proper permissions
-sudo touch /var/log/blocklist-update.log
-sudo chmod 644 /var/log/blocklist-update.log
+`sudo touch /var/log/blocklist-update.log`
+`sudo chmod 644 /var/log/blocklist-update.log`
 
 ### Test it manually first
-sudo /etc/cron.daily/update-blocklists
+`sudo /etc/cron.daily/update-blocklists`
 
 ### Check the log
-sudo tail -f /var/log/blocklist-update.log
+`sudo tail -f /var/log/blocklist-update.log`
