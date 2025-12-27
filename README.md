@@ -29,7 +29,7 @@ Add: `ip-block.sh` contents
 
 # Security status file
 
-Optional monitorin tool.
+Optional monitoring tool.
 
 `nano ~/security-status.sh`
 
