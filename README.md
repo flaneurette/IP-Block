@@ -1,9 +1,9 @@
 # IP-Block
 Fetches a list from spamhaus daily and blocks all offending IP's
 
-### Install ipset for efficient IP blocking
+# Requirements
 
-`sudo apt-get install ipset`
+`apt-get install ipset mailutils jq`
 
 ### Create a cron job to update blocklists
 
