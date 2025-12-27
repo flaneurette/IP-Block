@@ -26,3 +26,17 @@ Add: `ip-block.sh` contents
 ### Check the log
 
 `sudo tail -f /var/log/blocklist-update.log`
+
+# Security status file
+
+Optional monitorin tool.
+
+`nano ~/security-status.sh`
+
+Paste `security-status.sh`
+
+`chmod +x ~/security-status.sh`
+
+Run it:
+
+`./security-status.sh`
